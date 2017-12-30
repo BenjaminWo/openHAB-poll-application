@@ -1,0 +1,144 @@
+[
+    {
+        "id": "Abstimmungsapplikation",
+        "name": "Bau 1 Raum 109",
+        "widgets": [
+            {
+                "name": "",
+                "sizeX": 3,
+                "sizeY": 3,
+                "item": "B1_R109_temperature",
+                "type": "slider",
+                "row": 0,
+                "col": 0,
+                "floor": -10,
+                "ceil": 10,
+                "step": 1,
+                "unit": "°C",
+                "bigslider": true,
+                "backdrop_iconset": "eclipse-smarthome-classic",
+                "backdrop_icon": "temperature",
+                "backdrop_center": true
+            },
+            {
+                "name": "",
+                "sizeX": 3,
+                "sizeY": 3,
+                "item": "B1_R109_noise",
+                "type": "dummy",
+                "row": 0,
+                "col": 3,
+                "backdrop_iconset": "eclipse-smarthome-classic",
+                "backdrop_icon": "soundvolume",
+                "icon_size": "100",
+                "backdrop_center": true,
+                "icon_nolinebreak": false,
+                "font_size": "78",
+                "useserverformat": false,
+                "nolinebreak": false,
+                "unit": ""
+            },
+            {
+                "name": "B1 R109 Temperatur",
+                "sizeX": 3,
+                "sizeY": 3,
+                "item": "B1_R109_temperature",
+                "type": "knob",
+                "row": 3,
+                "col": 0,
+                "floor": -10,
+                "ceil": 10,
+                "step": 1,
+                "unit": "°C",
+                "startAngle": -90,
+                "endAngle": 90,
+                "barColor": "#00FFFF",
+                "prevBarColor": "#FF6699",
+                "trackColor": "#E6E6E6",
+                "subTextEnabled": false,
+                "scaleEnabled": true,
+                "scaleType": "lines",
+                "scaleColor": "#00CCFF",
+                "scaleWidth": 0,
+                "scaleQuantity": 0,
+                "scaleSpaceWidth": 0,
+                "skinType": "simple",
+                "skinWidth": 2,
+                "skinColor": "#9933FF",
+                "skinSpaceWidth": 2,
+                "rangesEnabled": true,
+                "rangesTextColorMatching": true,
+                "ranges": [
+                    {
+                        "min": -10,
+                        "max": -5,
+                        "barColor": "#0000FF"
+                    },
+                    {
+                        "min": -5,
+                        "max": 0,
+                        "barColor": "#33CCFF"
+                    },
+                    {
+                        "min": 0,
+                        "max": 5,
+                        "barColor": "#FFFF66"
+                    },
+                    {
+                        "min": 5,
+                        "max": 10,
+                        "barColor": "#66FF33"
+                    }
+                ]
+            }
+        ],
+        "row": 0,
+        "col": 0,
+        "sizeX": 2,
+        "sizeY": 3,
+        "tile": {
+            "background_image": "",
+            "backdrop_iconset": "eclipse-smarthome-classic",
+            "backdrop_icon": "chart",
+            "backdrop_center": true,
+            "iconset": "eclipse-smarthome-classic",
+            "icon": "chart",
+            "icon_size": ""
+        },
+        "$$hashKey": "object:19"
+    },
+    {
+        "id": "Bau 2 Raum 221",
+        "name": "Bau 2 Raum 221",
+        "widgets": [],
+        "row": 0,
+        "col": 2,
+        "sizeY": 3,
+        "sizeX": 2,
+        "tile": {
+            "backdrop_iconset": "eclipse-smarthome-classic",
+            "backdrop_icon": "chart",
+            "backdrop_center": true,
+            "iconset": "eclipse-smarthome-classic",
+            "icon": "chart"
+        },
+        "$$hashKey": "object:20"
+    },
+    {
+        "id": "Bau 2 Raum 222",
+        "name": "Bau 2 Raum 222",
+        "widgets": [],
+        "row": 0,
+        "col": 4,
+        "sizeX": 2,
+        "sizeY": 3,
+        "tile": {
+            "backdrop_iconset": "eclipse-smarthome-classic",
+            "backdrop_icon": "chart",
+            "backdrop_center": true,
+            "iconset": "eclipse-smarthome-classic",
+            "icon": "chart"
+        },
+        "$$hashKey": "object:21"
+    }
+]
