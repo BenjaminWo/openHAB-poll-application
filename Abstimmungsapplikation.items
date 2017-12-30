@@ -1,0 +1,32 @@
+
+// Obergruppe
+//Group Bau_1
+//Group Bau_2
+//Group Bau_3
+
+// Untergruppen
+//Group B1_Raum_109 (Bau_1)
+//Group B2_Raum_109 (Bau_2)
+//Group B2_Raum_221 (Bau_2)
+//Group B2_Raum_222 (Bau_2)
+//Group B3_Raum_305 (Bau_3)
+
+
+// Temperatur
+Number B1_R109_temperature "Temperatur [%.1f °C]" <temperature>
+Number B2_R109_temperature "Temperatur [%.1f °C]" <temperature> 
+Number B2_R221_temperature "Temperatur [%.1f °C]" <temperature> 
+Number B2_R222_temperature "Temperatur [%.1f °C]" <temperature> 
+Number B3_R305_temperature "Temperatur [%.1f °C]" <temperature> 
+
+
+Number Temperatur_pos "Temperatur erhöhen um [%.1f °C]" <temperature> 
+Number Temperatur_neg "Temperatur veringern um [%.1f °C]" <temperature> 
+
+
+// Lautstärke
+Number B1_R109_noise "Lärm" <soundvolume>
+Number B2_R109_noise "Lärm" <soundvolume>
+Number B2_R221_noise "Lärm" <soundvolume>
+Number B2_R222_noise "Lärm" <soundvolume>
+Number B3_R305_noise "Lärm" <soundvolume>

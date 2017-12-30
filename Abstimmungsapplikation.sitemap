@@ -1,0 +1,48 @@
+
+
+sitemap Abstimmungsapplikation label="Abstimmungsapplikation"{
+	
+	 
+	
+	 
+	 Group item=Bau_1 label="Bau 1"{ // Gruppe von Überkategorei Gebäude
+    	Text item=Raum_109 label="Raum 109" icon="corridor"{   // Unterkategorie verschiedene Räume
+    	 Frame label="Wie ist Ihr Temperaturbefinden im Hörsaal?"{
+			Setpoint item=Temperatur_pos minValue=-10 maxValue=10 step=1
+			Setpoint item=Temperatur_neg minValue=-10 maxValue=10 step=1
+
+   		}
+   		}
+   		
+   		}
+    Frame label="Abstimmungsapplikation HfT" {   // Überframwork
+    
+    	
+    	Group item=Bau_1 label="Bau 1"{ // Gruppe von Überkategorei Gebäude
+    	Text item=Raum_109 label="Raum 109" icon="corridor"{   // Unterkategorie verschiedene Räume
+			Setpoint item=B1_R109_temperature minValue=-10 maxValue=10 step=1
+			Setpoint item=B1_R109_noise minValue=0 maxValue=10 step=1
+   		}
+   		}
+   		
+   		
+   		Group item=Bau_2 label="Bau 2"{
+    	Text item=Raum_221 label="Raum 221" icon="corridor"{   // Unterkategorie verschiedene Räume
+			Setpoint item=B2_R221_temperature minValue=-10 maxValue=10 step=1 
+			Setpoint item=B2_R221_noise minValue=0 maxValue=10 step=1
+   		}
+   		Text item=Raum_222 label="Raum 222" icon="corridor"{   // Unterkategorie verschiedene Räume
+			Setpoint item=B2_R222_temperature minValue=-10 maxValue=10 step=1
+			Setpoint item=B2_R222_noise minValue=0 maxValue=10 step=1
+   		}
+   		}
+   		
+   		
+   		Group item=Bau_3 label="Bau 3" {
+    	Text item=Raum_305 label="Raum 305" icon="corridor"{   // Unterkategorie verschiedene Räume
+			Setpoint item=B3_R305_temperature minValue=-10 maxValue=10 step=1
+			Setpoint item=B3_R305_noise minValue=0 maxValue=10 step=1
+   		}
+   		}		   		
+	}	
+}
